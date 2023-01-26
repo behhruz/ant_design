@@ -15,6 +15,7 @@ import Global from "../../Assets/icons/global.png";
 import Ltr from "../../Assets/icons/ltr.png";
 import Github from "../../Assets/icons/github.png";
 import { NavLink } from "react-router-dom";
+import { Navbars } from "../../Utilities/navbar";
 
 export const Navbar = () => {
   return (
@@ -32,11 +33,16 @@ export const Navbar = () => {
           <Input type="checked" placeholder="Type keywords..." />
         </Box1>
         <Box2>
-          <Latter>Design</Latter>
-          <Latter>Development</Latter>
-          <Latter>Components</Latter>
-          <Latter>Blog</Latter>
-          <Latter>Recources</Latter>
+          {Navbars.map((v) => {
+            return (
+              <>
+                <NavLink to={v.path} style={{ textDecoration: "none" }}>
+                  <Latter>{v.title}</Latter>
+                </NavLink>
+              </>
+            );
+          })}
+
           <Select>
             <option value="">5.1.6</option>
             <option value="">4.x</option>

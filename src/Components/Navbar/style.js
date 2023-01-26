@@ -49,6 +49,7 @@ const Latter = styled.p`
   margin: 0 7px;
   transition: all 0.2s;
   cursor: pointer;
+  color: black;
   &:hover {
     border-top: 1.9px solid #1677ff;
     transition: all 0.2s;
