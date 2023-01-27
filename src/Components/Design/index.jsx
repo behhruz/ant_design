@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Outlet, Route, Routes } from "react-router-dom";
 import { Navbars } from "../../Utilities/navbar";
 import { DesignBody } from "./DesignBody";
-import { Box, Container } from "./style";
+import { Box, Container, Latter } from "./style";
 
 export const Design = () => {
   let design = Navbars.filter((v) => v.path == "design")[0].child;
@@ -14,8 +14,8 @@ export const Design = () => {
           <Container>
             {" "}
             {design.map((v) => (
-              <NavLink  style={{textDecoration: 'none'}} to={v.path}>
-                <h1>{v.title}</h1>
+              <NavLink style={{ textDecoration: "none" }} to={v.path}>
+                <Latter>{v.title}</Latter>
               </NavLink>
             ))}
           </Container>

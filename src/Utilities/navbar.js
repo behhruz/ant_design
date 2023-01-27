@@ -70,12 +70,6 @@ export let Navbars = [
         element: "Overview",
       },
       {
-        id: 20,
-        title: "Overview",
-        path: "overview",
-        element: "Overview",
-      },
-      {
         id: 21,
         title: "Feedback",
         path: "feedback",
