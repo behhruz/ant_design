@@ -10,7 +10,7 @@ export const Design = () => {
     <>
       <>
         {design.map((v) => (
-          <NavLink to={v.path}>
+          <NavLink  to={v.path}>
             <h1>{v.title}</h1>
           </NavLink>
         ))}
