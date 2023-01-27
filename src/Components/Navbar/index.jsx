@@ -14,7 +14,7 @@ import Search from "../../Assets/icons/lupa.png";
 import Global from "../../Assets/icons/global.png";
 import Ltr from "../../Assets/icons/ltr.png";
 import Github from "../../Assets/icons/github.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { Navbars } from "../../Utilities/navbar";
 
 export const Navbar = () => {
@@ -41,6 +41,7 @@ export const Navbar = () => {
                 </NavLink>
               </>
             );
+            <Outlet />;
           })}
 
           <Select>

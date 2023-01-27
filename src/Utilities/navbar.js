@@ -1,23 +1,24 @@
-import { Body } from "../Components/Body";
-import { RouterPage } from "../Components/RouterPage";
+import { NotAFound } from "../Components/404";
+import { Design } from "../Components/Design";
+import { Generic } from "./Generic";
 
 export let Navbars = [
   {
     id: 1,
     title: "Design",
-    path: "/Design",
-    element: <RouterPage />,
-    key: [
+    path: "design",
+    element: <Design />,
+    child: [
       {
         id: 10,
         title: "Introduction",
-        path: "/Design/Introduction",
+        path: "introduction",
         element: "Introduction",
       },
       {
         id: 11,
         title: "Design Values",
-        path: "/Design/DesignValues",
+        path: "designValues",
         element: "Design Values",
       },
     ],
@@ -25,25 +26,25 @@ export let Navbars = [
   {
     id: 2,
     title: "Development",
-    path: "/Development",
-    element: <RouterPage />,
+    path: "development",
+    element:<NotAFound />,
   },
   {
     id: 3,
     title: "Components",
-    path: "/Components",
-    element: <RouterPage />,
+    path: "components",
+    element: <NotAFound />,
   },
   {
     id: 4,
     title: "Blog",
-    path: "/Blog",
-    element: <RouterPage />,
+    path: "blog",
+    element: <NotAFound />,
   },
   {
     id: 5,
     title: "Recources",
-    path: "/Recources",
-    element: <RouterPage />,
+    path: "recources",
+    element: <NotAFound />,
   },
 ];
