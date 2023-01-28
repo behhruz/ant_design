@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink, Outlet, Route, Routes } from "react-router-dom";
 import { Navbars } from "../../Utilities/navbar";
-import { DesignBody } from "./DesignBody";
-import { Box, Container, Latter } from "./style";
+import { DesignBody } from "../Design/DesignBody";
+import { Box, Container, Latter } from "../Design/style";
 
-export const Design = () => {
-  let design = Navbars.filter((v) => v.path == "design")[0].child;
+export const Development = () => {
+  let design = Navbars.filter((v) => v.path == "development")[0].child;
 
   return (
     <>

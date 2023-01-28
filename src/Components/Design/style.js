@@ -31,6 +31,5 @@ const Latter = styled.p`
     transition: all 0.3s;
     border-radius: 5px;
   }
-  & Latter:
 `;
 export { Container, Box,Latter };
