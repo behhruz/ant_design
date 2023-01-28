@@ -1,5 +1,7 @@
 import { NotAFound } from "../Components/404";
+import { Component } from "../Components/Componet";
 import { Design } from "../Components/Design";
+import { Blog } from "../Components/Blog";
 import { Development } from "../Components/Developmnt";
 // import { Development } from "../Components/Developmnt";
 import { Generic } from "./Generic";
@@ -193,7 +195,7 @@ export let Navbars = [
     id: 3,
     title: "Components",
     path: "components",
-    element: <NotAFound />,
+    element: <Component />,
     child: [
       {
         id: 36,
@@ -255,28 +257,28 @@ export let Navbars = [
         id: 44,
         title: "BreadCrumb",
         path: "breadCrumb",
-        element: "v4 to v5",
+        element: "BreadCrumb",
         text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
       },
       {
         id: 45,
-        title: "Third-party Libraries",
-        path: "third-party-libraries",
-        element: "Third-party Libraries",
+        title: "Navbar",
+        path: "navbar",
+        element: "Navbar",
         text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
       },
       {
         id: 46,
-        title: "Internationazational",
-        path: "internationazational",
-        element: "Internationazational",
+        title: "Menu",
+        path: "menu",
+        element: "menu",
         text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
       },
       {
         id: 47,
-        title: "FAQ",
-        path: "faq",
-        element: "FAQ",
+        title: "Pagination",
+        path: "pagination",
+        element: "Pagination",
         text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
       },
     ],
@@ -285,7 +287,58 @@ export let Navbars = [
     id: 4,
     title: "Blog",
     path: "blog",
-    element: <NotAFound />,
+    element: <Blog />,
+    child: [
+      {
+        id: 48,
+        title: "Unnecessary Rerender",
+        path: "unnecaryRerender",
+        element: "Unnecessary Rerender",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+      {
+        id: 49,
+        title: "Funny Modal hook BUG",
+        path: "funnyModalHookBug",
+        element: "Funny Modal hook BUG",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+      {
+        id: 50,
+        title: "About Antd test library ",
+        path: "aboutAntdTestLibraryMigration",
+        element: "About Antd test library ",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+      {
+        id: 51,
+        title: "Tree's check conduction",
+        path: "treesCheckConduction",
+        element: "Tree's check conduction",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+      {
+        id: 52,
+        title: "How to Grow as a Collaboator",
+        path: "howtoGrowasaCollaboator",
+        element: "How to Grow as a Collaboator",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+      {
+        id: 53,
+        title: "Some change on getContainer",
+        path: "someChangeonGetContainer",
+        element: "Some change on getContainer",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+      {
+        id: 54,
+        title: "Component-level Css-in-Js",
+        path: "Component-levelCssinJS",
+        element: "Component-level Css-in-Js",
+        text: "The use of design patterns in enterprise-level businesses can significantly increase the certainty of the R&D team, save unnecessary design and maintain system consistency, allowing designers to focus on creativity where it is most needed.",
+      },
+    ],
   },
   {
     id: 5,

@@ -1,3 +1,4 @@
+import { NavLink, Route, Routes } from "react-router-dom";
 import { All, Button, Container, Latter, Latter1 } from "./style";
 
 export const Body = () => {
@@ -10,7 +11,9 @@ export const Body = () => {
           and working with happeness
         </Latter1>
         <All>
-          <Button get>Getting Started</Button>
+          <NavLink to={"components"}>
+            <Button get>Getting Started</Button>
+          </NavLink>
           <Button des>Design Launguage</Button>
         </All>
       </Container>
