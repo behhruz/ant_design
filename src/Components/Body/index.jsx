@@ -14,7 +14,9 @@ export const Body = () => {
           <NavLink to={"components"}>
             <Button get>Getting Started</Button>
           </NavLink>
-          <Button des>Design Launguage</Button>
+          <NavLink to={"design"}>
+            <Button des>Design Launguage</Button>
+          </NavLink>
         </All>
       </Container>
     </>

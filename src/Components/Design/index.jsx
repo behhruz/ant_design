@@ -5,8 +5,9 @@ import { DesignBody } from "./DesignBody";
 import { Box, Container, Latter } from "./style";
 
 export const Design = () => {
-  let design = Navbars.filter((v) => v.path == "design")[0].child;
+  let design = Navbars.filter((v) => v.path == "design")[0]?.child;
 
+  console.log(design);
   return (
     <>
       <Box>
@@ -34,6 +35,7 @@ export const Design = () => {
             </>
           );
         })}
+
         <Outlet />
       </Box>
     </>

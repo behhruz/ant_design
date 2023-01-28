@@ -5,6 +5,7 @@ import { Blog } from "../Components/Blog";
 import { Development } from "../Components/Developmnt";
 // import { Development } from "../Components/Developmnt";
 import { Generic } from "./Generic";
+import { Recources } from "../Components/Recources";
 
 export let Navbars = [
   {
@@ -16,7 +17,7 @@ export let Navbars = [
       {
         id: 10,
         title: "Introduction",
-        path: "introduction",
+        path: "",
         element: "Introduction",
         text: "Ant Financial has a large number of enterprise-level products. With complex scenarios, designers and developers often need to respond fast due to frequent changes in product demands and concurrent R & D workflow. Many similar contents exist in the process. Through abstraction, we could obtain some stable and highly reusable components and pages.",
       },
@@ -344,6 +345,6 @@ export let Navbars = [
     id: 5,
     title: "Recources",
     path: "recources",
-    element: <NotAFound />,
+    element: <Recources />,
   },
 ];
