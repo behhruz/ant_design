@@ -12,7 +12,7 @@ export const Recources = () => {
           collected. You can leave feedback about Sketch Symbols here. Do you
           want to know the story behind the Ant Design design system? How can I
           better apply Ant Design? You can check out our well selected articles
-          below. Also welcome to follow Ant Design Official Column. There are
+          below. Also welcome to. Ant Design Official Column. There are
           often the latest sharing and discussions on related topics under the
           Ant Design design system, such as Ant Design, AntV visualization,
           Kitchen design Plug-ins, B-side product design, SaaS product design,
