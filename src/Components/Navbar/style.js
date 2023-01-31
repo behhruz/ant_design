@@ -27,6 +27,9 @@ const Img1 = styled.img`
   margin: ${({ lupa }) => lupa && "0 0 0 90px"};
   width: ${({ global }) => global && "24px"};
   height: ${({ global }) => global && "24px"};
+  &:active {
+    transform: scale(0.9);
+  }
 `;
 const Ant = styled.p`
   font-size: 21px;

@@ -22,10 +22,10 @@ export const Navbar = () => {
     <>
       <Container>
         <Box1>
-          <NavLink to={"home"}>
+          <NavLink to={"/"}>
             <Img1 src={AntDesign} />
           </NavLink>
-          <NavLink style={{ textDecoration: "none" }} to={"home"}>
+          <NavLink style={{ textDecoration: "none" }} to={"/"}>
             <Ant>Ant Design</Ant>
           </NavLink>
 
@@ -59,9 +59,11 @@ export const Navbar = () => {
             <option value="">Ant design Angular</option>
             <option value="">Ant design Vue</option>
           </Select>
-          <Img1 global src={Global} />
-          <Img1 global src={Ltr} />
-          <Img1 global src={Github} />
+          <NavLink to={"recources"}>
+            <Img1 ff global src={Global} />
+          </NavLink>
+          <NavLink to={"development"}> <Img1 ff global src={Ltr} /></NavLink>
+          <Img1 ff global src={Github} />
         </Box2>
       </Container>
     </>
