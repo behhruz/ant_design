@@ -25,7 +25,7 @@ export const Navbar = () => {
           <NavLink to={"/"}>
             <Img1 src={AntDesign} />
           </NavLink>
-          <NavLink style={{ textDecoration: "none" }} to={"/"}>
+          <NavLink  style={{ textDecoration: "none" }} to={"/"}>
             <Ant>Ant Design</Ant>
           </NavLink>
 

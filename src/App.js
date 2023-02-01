@@ -17,7 +17,7 @@ function App() {
             <>
               <Route path={v.path} element={v.element}>
                 {v.child.map((i) => (
-                  <Route path={i.path} />
+                  <Route path={`${i.path}`} />
                 ))}
               </Route>
             </>
