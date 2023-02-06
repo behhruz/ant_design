@@ -33,7 +33,7 @@ export let Navbars = [
         title: "Cases",
         path: "cases",
         element: "Cases",
-        text: "Starting in Apri 2015, more and more products of Ant Financial follow Ant Design specification, covering multiple business lines and more than 80 applications. Designed for enterprise-class complex UIs, used by both professional and non-professional designers, Ant Design has a low learning curve that helps you get started fast and achieve rapid results.",
+        text: "Starting in April 2015, more and more products of Ant Financial follow Ant Design specification, covering multiple business lines and more than 80 applications. Designed for enterprise-class complex UIs, used by both professional and non-professional designers, Ant Design has a low learning curve that helps you get started fast and achieve rapid results.",
       },
       {
         id: 13,
